@@ -1,0 +1,933 @@
+ h1{
+    color:#fff;
+    font-size: 40px;/* Տառերի  չափս*/
+   /*justify,center,end,start Տեքստի հավասարեցումը*/
+    font-weight:bold;/*100-900   bold,bolder,normal,lighter*Տառերի հաստություն*/  
+    letter-spacing: 4px;/*Տառերի հեռավորությունը*/
+    line-height: 30px;   /*Գծի բարձրությունը*/
+    text-transform: capitalize;/*lowercase,uppercase,capitalize,
+տեքստի վերափոխում մեծաթառ-փոքրատառ*/
+   
+    font-family:  'Potta One', cursive;
+    padding: 20px;
+        text-align: center;
+      
+    }
+ tbody, tr{
+    width: 250px;
+   margin: auto;
+    border: 2px solid #fff;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 16px;
+  
+
+}
+
+.stripe{
+    border: none;
+    position: relative;
+    transition: 500ms ease all;
+    outline: none;
+    overflow: hidden;
+    z-index:1;
+    text-align: center;
+     background: #f69721;
+     margin-left: 5px; 
+   width: 300px;
+     height: 35px;
+     border:1px solid #f69721;
+     color: #ccc;
+font-family: sans-serif;
+     border-radius: 30px;
+    }
+    .stripe:hover{
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+ background: #313486; 
+        border: #313486;
+}
+   
+    .stripe:before , .stripe:after ,  .stripe span:before ,  .stripe span:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 25.25%;
+    height: 0;
+    background-color: #313486;
+    left: 0;
+    z-index: -1;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+    .stripe:before{
+    top: 0;
+    left: 0;
+}
+    .stripe:after{
+    top: 0;
+    left: 50%;
+}
+    .stripe span:before{
+    top: auto;
+    bottom:0px;
+    left: 25%;
+}
+    .stripe span:after{
+    top: auto;
+    bottom:0px;
+    left: 75%;
+}    
+    
+    .stripe:hover:before,  .stripe:hover:after , 
+    .stripe:hover span:before, .stripe:hover span:after
+    
+    {
+        height: 80px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    font-size:14px;
+}
+.somaidiv{
+      width: 100%;/*px,%,vh,vw*/
+    height: 600px;
+   background: url('../img/Harichavank_Monastery_2012-01-08.jpg');
+    background-attachment: fixed;/*fixed,scroll,local,inherit*/
+    background-repeat: no-repeat;
+        
+background-size: 100%;
+}
+
+table,  {
+    width: 250px;
+   margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+
+}
+.stripe{
+    border: none;
+    position: relative;
+    transition: 1500ms ease all;
+    outline: none;
+    overflow: hidden;
+    z-index:1;
+    text-align: center;
+     background: #f69721;
+     margin-left: 5px; 
+   width: 300px;
+     height: 35px;
+     border:1px solid #f69721;
+     color: #ccc;
+font-family: sans-serif;
+    border-radius: 0;
+    
+    }
+    .stripe:hover{
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+ background: #313486; 
+        border: #313486;
+}
+   
+    .stripe:before , .stripe:after ,  .stripe span:before ,  .stripe span:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 25.25%;
+    height: 0;
+    background-color: #313486;
+    left: 0;
+    z-index: -1;
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+    .stripe:before{
+    top: 0;
+    left: 0;
+}
+    .stripe:after{
+    top: 0;
+    left: 50%;
+}
+    .stripe span:before{
+    top: auto;
+    bottom:0px;
+    left: 25%;
+}
+    .stripe span:after{
+    top: auto;
+    bottom:0px;
+    left: 75%;
+}    
+    
+    .stripe:hover:before,  .stripe:hover:after , 
+    .stripe:hover span:before, .stripe:hover span:after
+    
+    {
+        height: 80px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    font-size:14px;
+}
+th, td {
+    padding: 8px;
+ border: 1px solid black;
+    color: black;
+  
+}
+a{
+    text-decoration: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+ margin: 50px;
+}
+
+span{
+    display: block;
+    margin: 50px;
+}
+
+
+.parent{
+    max-width:300px;
+    height: 320px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:10px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:190px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+ 
+.parent > .info > h4{
+    font-size: 25px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent > .info > p{
+    font-size: 15px;
+    text-align: center;
+    margin: 7px ;
+   padding: 8px;
+      color: #0a0a0a;
+}
+.parent > .info > button > a {
+
+    background: #f69721;
+    padding: 9px 20px;
+  overflow: hidden;
+ 
+    border: 2px solid  ;
+    border-color: #f69721;
+    cursor: pointer;
+    transition: 0,6s;
+    top: 10px;
+    font-size: 15px  ;
+     color: #fff;
+  border-radius: 8px;
+    font-weight: bold;
+    
+ 
+  
+   
+}
+
+.parent > .info > button > a:hover{
+    background: #fff;
+    color:  #313486;
+    font-size: 15px;
+    padding: 9px 20px;
+    border: 2px solid #313486;
+    
+}
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 300px;
+    height: 190px;
+   justify-content: center;
+   
+}
+
+table, th,  td {
+    width: 250px;
+   margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+
+}
+
+th, td {
+    padding: 8px;
+  
+}
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+
+
+@media screen and (max-width:1180px){
+ .somaidiv{
+      width: 100%;/*px,%,vh,vw*/
+    height: 450px;
+   background: url('../img/Harichavank_Monastery_2012-01-08.jpg');
+    background-attachment: fixed;/*fixed,scroll,local,inherit*/
+    background-repeat: no-repeat;
+        
+background-size: 1180px;
+}
+}
+.menu{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+   
+}.menu a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 1px;
+    background-color:#f69721 
+;
+    border-radius: 5px;
+    margin: 8px;
+    text-align: center;
+
+    border-bottom:  5px solid #313486 ;
+ width:300px;
+}
+@media screen and (max-width:940px){
+.parent{
+    max-width:200px;
+    height: 220px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:30px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:120px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+
+
+ 
+.parent > .info > h4{
+    font-size: 15px;
+    color: #0a0a0a;
+    padding: 5px;
+    margin: -2px;
+}
+.parent > .info > p{
+    font-size: 10px;
+    text-align: center;
+    margin: 3px ;
+padding-top: 10px;
+      color: #0a0a0a;
+   ;
+}
+   .parent > .info > button > a{
+    background: rgba(88,118,187);
+    padding: 11px 25px;
+ 
+ 
+    border: 2px solid  ;
+    border-color: rgba(88,118,187);
+    cursor: pointer;
+    transition: 0,6s;
+    top: -10px;
+    font-size: 13px  ;
+     color: #fff;
+  border-radius: 8px;
+    font-weight: bold;
+   
+}
+
+.parent > .info > button > a:hover{
+    background: #fff;
+    color:  rgba(88,118,187);
+    font-size: 13px;
+    padding: 11px 25px;
+    
+    
+}
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 220px;
+    height: 120px;
+   justify-content: center;
+    }
+     h1{
+    color:#fff;
+    font-size: 32px;/* Տառերի  չափս*/
+   /*justify,center,end,start Տեքստի հավասարեցումը*/
+    font-weight:bold;/*100-900   bold,bolder,normal,lighter*Տառերի հաստություն*/  
+    letter-spacing: 4px;/*Տառերի հեռավորությունը*/
+    line-height: 28px;   /*Գծի բարձրությունը*/
+    text-transform: capitalize;/*lowercase,uppercase,capitalize,
+տեքստի վերափոխում մեծաթառ-փոքրատառ*/
+   
+    font-family:  'Potta One', cursive;
+    padding: 20px;
+        text-align: center;
+      
+    }
+
+
+
+@media screen and (max-width:762px){
+       .somaidiv{
+      width:100%;/*px,%,vh,vw*/
+    height: 350px;
+   background: url('../img/Harichavank_Monastery_2012-01-08.jpg');
+    background-attachment: fixed;/*fixed,scroll,local,inherit*/
+    background-repeat: no-repeat;
+        
+background-size: 762px;
+}
+    .parent{
+    max-width:180px;
+    height: 200px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:30px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:120px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: drkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+    
+.parent > .info > h4{
+    font-size: 14px;
+    color: #0a0a0a;
+    padding: -5px;
+}
+.parent > .info > p{
+    font-size: 9px;
+    text-align: center;
+    margin: -1px ;
+   padding: -8px;
+      color: #0a0a0a;
+    ;
+}
+  .parent > .info > button > a{
+    background: rgba(88,118,187);
+    padding: 6px 12px;
+ 
+ 
+    border: 2px solid  ;
+    border-color: rgba(88,118,187);
+    cursor: pointer;
+    transition: 0,6s;
+    top: 10px;
+    font-size: 13px  ;
+     color: #fff;
+  border-radius: 8px;
+    font-weight: bold;
+   
+}
+
+.parent > .info > button > a:hover{
+    background: #fff;
+    color:  rgba(88,118,187);
+    font-size: 13px;
+    padding: 6px 12px;
+    
+    
+}
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 180px;
+    height: 120px;
+   justify-content: center;
+   
+}
+    }
+
+@media screen and (max-width:720px){
+    .mydiv{
+         
+         width:100%;
+         height: 300px;
+        background: url('../img/Harichavank_Monastery_2012-01-08.jpg') ;
+        background-repeat: no-repeat;
+      background-size:720px;
+         background-attachment: fixed;
+    
+    }
+   .parent > .info > button > a{
+    background: rgba(88,118,187);
+    padding: 3px 8px;
+ 
+ 
+    border: 2px solid  ;
+    border-color: rgba(88,118,187);
+    cursor: pointer;
+    transition: 0,6s;
+    top: 10px;
+    font-size: 10px  ;
+     color: #fff;
+  border-radius: 8px;
+    font-weight: bold;
+   
+}
+
+.parent > .info > button > a:hover{
+    background: #fff;
+    color:  rgba(88,118,187);
+    font-size: 10px;
+    padding: 3px 8px;
+    
+    
+}
+
+ h1{
+    color:#fff;
+    font-size: 30px;/* Տառերի  չափս*/
+   /*justify,center,end,start Տեքստի հավասարեցումը*/
+    font-weight:bold;/*100-900   bold,bolder,normal,lighter*Տառերի հաստություն*/  
+    letter-spacing: 4px;/*Տառերի հեռավորությունը*/
+    line-height: 30px;   /*Գծի բարձրությունը*/
+    text-transform: capitalize;/*lowercase,uppercase,capitalize,
+տեքստի վերափոխում մեծաթառ-փոքրատառ*/
+    text-shadow: 1px 1px 2px black;/*Տառի շողք */
+    font-family:  'Potta One', cursive;
+    padding: 20px;
+        text-align: center;
+      
+    }
+  table, th, td {
+    width: 50px; 
+   margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+
+}
+
+th, td {
+    padding: 8px;
+     width: 50px; 
+   
+}
+@media screen and (max-width:667px){
+
+    .parent{
+    max-width:160px;
+    height: 180px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:110px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+.parent > .info > h4{
+    font-size: 15px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent > .info > p{
+    font-size: 9px;
+    text-align: center;
+    margin: 3px ;
+   padding: 2px;
+      color: #0a0a0a;
+}
+
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 160px;
+    height: 110px;
+   justify-content: center;
+   
+}
+    }
+
+@media screen and (max-width:667px){
+      h1{
+    color:#fff;
+    font-size: 20px;/* Տառերի  չափս*/
+   /*justify,center,end,start Տեքստի հավասարեցումը*/
+    font-weight:bold;/*100-900   bold,bolder,normal,lighter*Տառերի հաստություն*/  
+    letter-spacing: 4px;/*Տառերի հեռավորությունը*/
+    line-height: 28px;   /*Գծի բարձրությունը*/
+    text-transform: capitalize;/*lowercase,uppercase,capitalize,
+տեքստի վերափոխում մեծաթառ-փոքրատառ*/
+   
+    font-family:  'Potta One', cursive;
+    padding: 20px;
+        text-align: center;
+      
+    }
+    .parent{
+    max-width:130px;
+    height: 155px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:15px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:90px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+.parent > .info > h4{
+    font-size: 10px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+  
+.parent > .info > p{
+    font-size: 8px;
+    text-align: center;
+    margin: 3px ;
+   padding: 2px;
+      color: #0a0a0a;
+}
+
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 130px;
+    height: 90px;
+   justify-content: center;
+   
+}
+       .somaidiv{
+      width: 100%;
+    height: 400px;
+   background: url('../img/Harichavank_Monastery_2012-01-08.jpg');
+    background-attachment: fixed;/*fixed,scroll,local,inherit*/
+    background-repeat: no-repeat;
+        
+background-size: 667px;
+}
+    }
+
+@media screen and (max-width:450px){
+     .parent{
+    max-width:110px;
+    height: 125px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:5px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:90px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+.parent > .info > h4{
+    font-size: 8px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent > .info > p{
+    font-size: 6px;
+    text-align: center;
+    margin: 3px ;
+   padding: 2px;
+      color: #0a0a0a;
+    display: none;
+}
+
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 130px;
+    height: 90px;
+   justify-content: center;
+   
+}
+    .parent > .info > button > a{
+    background: rgba(88,118,187);
+    padding: 3px 8px;
+ 
+ 
+    border: 2px solid  ;
+    border-color: rgba(88,118,187);
+    cursor: pointer;
+    transition: 0,6s;
+    top: 10px;
+    font-size: 7px  ;
+     color: #fff;
+  border-radius: 2px;
+    font-weight: bold;
+   
+}
+
+.parent > .info > button > a:hover{
+    background: #fff;
+    color:  rgba(88,118,187);
+    font-size: 7px;
+    padding: 2px 6px;
+    
+    
+}
+    
+     .somaidiv{
+         
+         width: 100%;
+         height: 250px;
+        background: url('../img/Harichavank_Monastery_2012-01-08.jpg') ;
+        background-repeat: no-repeat;
+      background-size:450px;
+         background-attachment: fixed;
+    
+    }
+    h1{
+        color: #fff;
+        margin-top: -50px;
+    }
+    table tr{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    }
+
+    @media screen and (max-width:280px){
+  section {
+  float: bottom;
+  margin: 0 1.5%;
+  width: 30%;
+}
+           
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

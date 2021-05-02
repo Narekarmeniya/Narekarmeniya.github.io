@@ -1,0 +1,1547 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+  @font-face {
+                font-family: myFont;
+                src: url(fonts/Comfortaa-Light.ttf);
+            }
+#nav{
+font-family: 'Noto Serif', serif;
+}
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.github a:hover {background: #191919; color: #fff;}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.skype a:hover {background: #00aff0; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+.pinterest a:hover {background: #c8232c; color: #fff;}
+.linkedin a:hover {background: #0e76a8; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+.tumblr a:hover {background: #34526f; color: #fff;}
+.windows a:hover {background: #125acd; color: #fff;}
+.whatsapp a:hover {background: #50b154; color: #fff;}
+.weibo a:hover {background: #d52b2b; color: #fff;}
+.dropbox a:hover {background: #1087dd; color: #fff;}
+
+.nkar{
+width: 100%;
+    background: url('../img/cc.jpg');
+        height: 250px;
+    background-repeat: no-repeat;
+background-size: cover;
+
+    
+}
+h3{
+    color: #fff;
+    
+}
+nav{
+   max-width: 100%;
+}
+a{
+    font-size: 15px; 
+    margin: 8px;
+   
+}
+.a{
+       animation: move 2s 2;
+}
+.logo{
+    width: 75px;
+    height: 30px;
+}
+.mydiv > button{
+        border: 2px solid #fff;
+        margin-right: 30px;
+    }
+
+.menu >a:focus{
+    color: red;
+
+}
+.text{
+   height: 60px;
+    display: block;
+    margin: 15px;
+}
+h3{
+    padding: 10px;
+}
+   .marzz{
+    color: red;
+    font-size: 4vw;
+    font-weight: bold;
+    text-shadow:1px 1px 5px black;
+         width: 100%;
+}
+.tynn{
+    color: blue;
+     font-size: 4vw;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+     width: 100%;
+}
+.narnjagyunn{
+    color: #FFC124;
+     font-size: 4vw;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+   
+}
+
+
+
+
+.card img{
+max-width:100%;
+height:220px;
+
+}
+.card{
+    
+    	float: left;
+}
+.mydiv{
+   
+    width: 100%;/*px,%,vh,vw*/
+    height: 500px;
+   background: url('../img/Mount_Ararat_and_the_Yerevan_skyline.jpg');
+    background-attachment: fixed;/*fixed,scroll,local,inherit*/
+    background-repeat: no-repeat;
+    background-size:  cover;
+
+}
+ table, th,  td {
+    max-width:100%;
+   margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+   
+    color: #fff;
+
+}
+button > a{
+    color: #fff;
+    text-decoration: none;
+    overflow: 0;
+}
+th, td {
+    padding: 18px;
+
+}
+.diagonal_swipe_leftt{
+    text-decoration: none;
+ 
+    color: #fff;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+      width: 100px;
+      height: 30px;
+      text-align: center;
+      color: #fff;
+      background-color: #f69721;
+        border:1px solid #f69721;
+   
+    margin:7px;
+   }
+ 
+    .diagonal_swipe_leftt:before {
+ 
+        content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 0%;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    border-right: 50px solid #f69721;
+    border-bottom: 80px solid #313486;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: -1;
+}    
+
+    .diagonal_swipe_leftt:hover {
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    color: #ffffff;
+    z-index: 8;
+            border:1px solid #313486;
+}
+    .diagonal_swipe_leftt:hover:before {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+     
+}
+
+
+.diagonal_swipe_left{
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    -webkit-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+      width: 100px;
+      height: 30px;
+      text-align: center;
+      color: #fff;
+      background-color: #f69721;
+        border:1px solid #f69721;
+   
+    margin:7px;
+   }
+ 
+    .diagonal_swipe_left:before {
+ 
+        content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 0%;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    border-right: 50px solid #f69721;
+    border-bottom: 80px solid #313486;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    z-index: -1;
+}    
+
+    .diagonal_swipe_left:hover {
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    color: #ffffff;
+    z-index: 8;
+            border:1px solid #313486;
+}
+    .diagonal_swipe_left:hover:before {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+     
+}
+    
+.g{
+   font-size: 13px;
+    
+}.g:hover{
+   font-size: 14px;
+    
+}
+.ab {
+    background:rgba(48,138,228,0.2);;
+margin-left: 10px;
+    padding: 8px 20px;
+ display: inline;
+ background-position: top;
+  width: 180px;
+    height: 40px;
+ 
+}
+
+.a5{
+        animation: move 2s 2;
+  margin-left:30px;
+    width: 60px;
+    height: 60px;
+   animation: roratAnimation 3s infinite;
+}
+@keyframes roratAnimation{
+      from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.nkar{
+      
+float: left;  
+}
+
+.parent{
+    max-width:300px;
+    height: 320px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:10px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:190px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+ 
+.parent > .info > h4{
+    font-size: 25px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent > .info > p{
+    font-size: 15px;
+    text-align: center;
+    margin: 7px ;
+   padding: 8px;
+      color: #0a0a0a;
+}
+.parent > .info > button > a {
+
+    background: #f69721;
+    padding: 9px 20px;
+  overflow: hidden;
+ 
+    border: 2px solid  ;
+    border-color: #f69721;
+    cursor: pointer;
+    transition: 0,6s;
+    top: 10px;
+    font-size: 15px  ;
+     color: #fff;
+  border-radius: 8px;
+    font-weight: bold;
+  
+ 
+  
+   
+}
+#h3{
+    color:#fff;
+    font-size: 2vw;
+}
+.parent > .info > button > a:hover{
+    background: #fff;
+    color:  #313486;
+    font-size: 15px;
+    padding: 9px 20px;
+    border: 2px solid #313486;
+    
+}
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 300px;
+    height: 190px;
+   justify-content: center;
+   
+}
+
+
+ ul > li > a{
+     color: #EF6B00;
+    text-decoration: none;
+
+} 
+
+summary{
+    cursor: pointer;
+    color: red;
+}
+ul > li > b > a{
+    text-decoration: none;
+    color: 	#0033A0;
+}
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+.parent1{
+    max-width:300px;
+    height: 320px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:10px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+}
+.parent1 > .info1{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:190px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+ 
+.parent1 > .info1 > h4{
+    font-size: 25px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent1 > .info1 > p{
+    font-size: 15px;
+    text-align: center;
+    margin: 7px ;
+   padding: 8px;
+      color: #0a0a0a;
+}
+.parent1 > .info1 > button > a {
+
+    background: #f69721;
+    padding: 9px 20px;
+  overflow: hidden;
+ 
+    border: 2px solid  ;
+    border-color: #f69721;
+    cursor: pointer;
+    transition: 0,6s;
+    top: 10px;
+    font-size: 15px  ;
+     color: #fff;
+  border-radius: 8px;
+    font-weight: bold;
+    
+ 
+  
+   
+}
+
+.parent1 > .info1 > button > a:hover{
+    background: #fff;
+    color:  #313486;
+    font-size: 15px;
+    padding: 9px 20px;
+    border: 2px solid #313486;
+    
+}
+.parent1:hover .info1{
+    opacity: 0.6;
+} 
+.parent1 > .img1 > img{
+    top: 50px;
+    width: 300px;
+    height: 190px;
+   justify-content: center;
+   
+}
+
+
+
+ .text{
+  padding: 10px;
+     
+}
+
+.regarm{
+    width: 200px;
+ 
+  
+}
+form{
+    display: block;
+}
+
+
+
+aside{
+    margin-left: 20px
+}
+fieldset{
+    padding: 0 10px;
+    margin:0 0 10px;
+    border: 3px solid #B1B9CA;
+     background-color: #F0E0FD;
+    width:350px; 
+    display: inline;
+   
+}
+legend{
+    font-size: 16px;
+    padding:0 20px;
+    font-weight:300;
+}
+.kochak{
+    height: 35px;
+    width: 80px;
+    color: #fff;
+    background-color:#f69721 ;
+   border-bottom:  3px solid #313486 ;
+border-top:  3px solid #fff;
+    border-right:  3px solid #fff;
+    border-left:  3px solid #fff;
+    font: 14px sans-serif;
+    border-radius: 3px;
+}
+.kochak:hover{
+    cursor: pointer;
+     background-color:#313486;
+
+}
+
+#ab{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+#ad{
+    border: 3px solid #C4C5D5;
+    outline: 0px;
+    margin: 10px;
+    
+}
+input{
+   border: 2px solid #C0C0D0;
+    margin: 20px; 
+}
+#fio{
+    width: 200px;
+    height: 30px;
+    font-size: 1px;
+    padding: 6px;
+    font: 17px arial, tahona, sans-serif; 
+     color:#27272A ;
+}
+#email{
+       font-size: 15px;
+    padding: 6px;
+ width: 200px;
+    height: 30px;
+  font: 17px arial, tahona, cursive; 
+     color:#27272A ;
+} 
+
+
+@media screen and (max-width:375px){
+    .mydiv{
+           background: url('../img/Mount_Ararat_and_the_Yerevan_skyline1.jpg');
+        height: 200px;
+     
+            background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:  cover;
+
+
+    }
+   center > .h3{
+    font-size: 8px;
+}
+  .mydiv > .hamar > a{
+        color: #fff;
+    }
+    .hamar{
+        padding: 0px 30px;
+       
+    }
+    .link{
+        width: 100%;
+        height: 120px;
+      
+    }
+    .button{
+        width: 25px;
+        height: 22px;
+        font-size: 8px;
+        text-align: center;
+    }
+
+
+
+  
+   .parent{
+ top:-20px;
+    max-width:90px;
+    height: 110px;
+    border: 2px solid #ccc;
+    padding: 0px;
+   
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: 5px;
+    
+}
+    input{
+    width: 150px;
+    height: 20px;
+    font-size: 10px;
+   margin-left: 15px;
+   
+}
+.parent > .info{
+    
+    flex-flow: column;
+ 
+    align-items: center;
+    position: absolute;
+    top:60px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.5);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+    
+    
+      
+}
+ 
+.parent > .info > h4{
+    font-size: 6px;
+    color: #0a0a0a;
+   padding: 5px;
+}
+.parent > .info > p{
+    font-size: 5px;
+    text-align: center;
+    margin: 7px ;
+   padding: 8px;
+      color: #0a0a0a;
+}
+
+
+
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 90px;
+    height: 60px;
+   background:url('../img/drosh.jpg') ;
+       justify-content: center;
+   
+}
+    center > .h3{
+        display:block;
+        color: #fff;
+        font-size: 12px;
+    }
+   
+.parent1{
+    max-width:90px;
+    height: 110px;
+    border: 2px solid #ccc;
+    padding: 0px;
+ margin:5px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+   
+   
+    }
+    #ad{
+        width: 250px;
+    }
+.parent1 > .info1{
+    
+     
+    flex-flow: column;
+  
+    align-items: center;
+    position: absolute;
+    top:60px;
+    left:0px;
+   width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.5);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+    
+    }
+ 
+.parent1 > .info1 > h4{
+    font-size: 6px;
+    color: #0a0a0a;
+   padding: 5px;
+}
+.parent1 > .info1 > p{
+    font-size: 5px;
+    text-align: center;
+    margin: 7px ;
+   padding: 8px;
+      color: #0a0a0a;
+}
+
+
+.parent1:hover .info1{
+    opacity: 0.6;
+} 
+.parent1 > .img1 > img{
+    top: 50px;
+    width: 90px;
+    height: 60px;
+  
+   
+}
+    .regarm{
+     width: 80px;;
+     
+    }
+}
+@media screen and (max-width:430px){
+     body > .hay > #h1{
+    color:#fff;
+    font-size: 10px;/* Տառերի  չափս*/
+    text-align:center;/*justify,center,end,start Տեքստի հավասարեցումը*/
+    font-weight:normal;/*100-900   bold,bolder,normal,lighter*Տառերի հաստություն*/  
+ 
+}
+ #table > table, th,  td {
+    max-width:100%;
+   margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 5px;
+    color: #fff;
+
+}
+th, td {
+    padding: 18px;
+  
+}
+}
+@media screen and (max-width:450px){
+    a{
+        margin: 5px;
+        font-size: 9px;
+    }
+    a:hover {
+        font-size: 10px;
+    }
+    
+    center  > .h3{
+    font-size: 10px;
+}
+
+    
+ 
+  
+    .link{
+        width: 100%;
+        height: 90px;
+      
+    }
+    .button{
+        width: 45px;
+        height: 22px;
+        font-size: 8px;
+    }
+  
+   
+ 
+
+   
+   .parent{
+ top:-20px;
+    max-width:100px;
+    height: 120px;
+    border: 2px solid #ccc;
+    padding: 0px;
+   
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: 10px;
+    
+}
+    input{
+    width: 200px;
+    height: 20px;
+    font-size: 10px;
+   margin-left: 15px;
+   
+}
+.parent > .info{
+    
+    flex-flow: column;
+ 
+    align-items: center;
+    position: absolute;
+    top:70px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.5);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+    
+    
+      
+}
+ 
+.parent > .info > h4{
+    font-size: 8px;
+    color: #0a0a0a;
+   padding: 5px;
+}
+.parent > .info > p{
+    font-size: 7px;
+    text-align: center;
+    margin: 3px ;
+   padding: 2px;
+      color: #0a0a0a;
+}
+
+
+
+.parent:hover .info{
+    opacity: 0.6;
+} 
+
+    h3{
+        display:block;
+    }
+   
+.parent1{
+    max-width:100px;
+    height: 120px;
+    border: 2px solid #ccc;
+    padding: 0px;
+ margin:10px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    top: -20px;
+   
+    }
+
+.parent1 > .info1{
+    
+     
+    flex-flow: column;
+  
+    align-items: center;
+    position: absolute;
+    top:70px;
+    left:0px;
+   width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.5);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+    
+    }
+ 
+.parent1 > .info1 > h4{
+    font-size: 8px;
+    color: #0a0a0a;
+   padding: 5px;
+}
+.parent1 > .info1 > p{
+    font-size: 7px;
+    text-align: center;
+    margin: 3px ;
+   padding: 2px;
+      color: #0a0a0a;
+}
+
+
+.parent1:hover .info1{
+    opacity: 0.6;
+} 
+.parent1 > .img1 > img{
+    top: 50px;
+    width: 100px;
+    height: 70px;
+   justify-content: center;
+   
+}
+    .regarm{
+      width: 80px;
+    }
+  
+}
+}@media screen and (max-width:500px){
+      .parent{
+    max-width:130px;
+    height: 155px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:15px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:90px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+.parent > .info > h4{
+    font-size: 12px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent > .info > p{
+    font-size: 8px;
+    text-align: center;
+    margin: 3px ;
+   padding: 2px;
+      color: #0a0a0a;
+}
+
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 130px;
+    height: 90px;
+   justify-content: center;
+   
+}
+
+
+
+.parent1{
+    max-width:130px;
+    height: 155px;
+    border: 2px solid #ccc;
+    padding: 0px;
+margin: 15px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    
+}
+.parent1 > .info1{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:90px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+ 
+.parent1 > .info1 > h4{
+    font-size: 13px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent1 > .info1 > p{
+    font-size: 8px;
+    text-align: center;
+    margin: 3px ;
+   padding: 2px;
+      color: #0a0a0a;
+}
+
+.parent1:hover .info1{
+    opacity: 0.6;
+} 
+.parent1 > .img1 > img{
+    top: 50px;
+    width: 130px;
+    height: 90px;
+   justify-content: center;
+   
+}
+}
+@media screen and (max-width:555px){
+    table, th, td {
+       display: none;
+    }
+   .mydiv{
+           background: url('../img/Mount_Ararat_and_the_Yerevan_skyline2.jpg');
+        height: 200px;
+     
+            background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:  cover;
+
+
+    }
+}
+@media screen and (max-width:667px){
+
+    .parent{
+    max-width:160px;
+    height: 180px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:110px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+.parent > .info > h4{
+    font-size: 15px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent > .info > p{
+    font-size: 9px;
+    text-align: center;
+    margin: 3px ;
+   padding: 2px;
+      color: #0a0a0a;
+}
+
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 160px;
+    height: 110px;
+   justify-content: center;
+   
+}
+
+
+
+.parent1{
+    max-width:160px;
+    height: 180px;
+    border: 2px solid #ccc;
+    padding: 0px;
+margin: 20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    
+}
+.parent1 > .info1{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:110px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+ 
+.parent1 > .info1 > h4{
+    font-size: 15px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent1 > .info1 > p{
+    font-size: 9px;
+    text-align: center;
+    margin: 3px ;
+   padding: 2px;
+      color: #0a0a0a;
+}
+.parent1 > .info1 > button > a{
+    background: rgba(88,118,187);
+    padding: 11px 25px;
+ 
+ 
+    border: 2px solid  ;
+    border-color: rgba(88,118,187);
+    cursor: pointer;
+    transition: 0,6s;
+    top: 10px;
+    font-size: 15px  ;
+     color: #fff;
+  border-radius: 8px;
+    font-weight: bold;
+   
+}
+
+.parent1 > .info1 > button > a:hover{
+    background: #fff;
+    color:  rgba(88,118,187);
+    font-size: 15px;
+    padding: 11px 25px;
+    
+    
+}
+.parent1:hover .info1{
+    opacity: 0.6;
+} 
+.parent1 > .img1 > img{
+    top: 50px;
+    width: 160px;
+    height: 110px;
+   justify-content: center;
+   
+}
+    
+}
+@media screen and (max-width:720px){
+
+   
+
+ 
+     .link{
+        width: 100%;
+        height: 110px;
+      
+    }
+    .button{
+        width: 70px;
+        height: 22px;
+        font-size: 8px;
+        text-align: center;
+    }
+  
+   
+   
+            table, th, td {
+    width: 50px; 
+   margin: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+
+}
+    center > .h3 {
+        font-size: 20px;
+    }
+
+    .mydiv > .hamar > a{
+        color: #fff;
+       
+    }
+     a{
+        margin: 5px;
+        font-size: 15px;
+    }
+    a:hover {
+        font-size: 16px;
+        
+    }
+    .mydiv > .hamar{
+        border: 2px solid #fff;
+        
+    }
+    }
+@media screen and (max-width:762px){
+   span > .a{
+     
+        width:100%;
+    }
+    .parent{
+    max-width:180px;
+    height: 200px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:30px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:120px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+.parent > .info > h4{
+    font-size: 20px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent > .info > p{
+    font-size: 10px;
+    text-align: center;
+    margin: 7px ;
+   padding: 8px;
+      color: #0a0a0a;
+}
+
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 180px;
+    height: 120px;
+   justify-content: center;
+   
+}
+
+
+
+.parent1{
+    max-width:180px;
+    height: 200px;
+    border: 2px solid #ccc;
+    padding: 0px;
+margin: 30px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    
+}
+.parent1 > .info1{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:120px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+ 
+.parent1 > .info1 > h4{
+    font-size: 20px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent1 > .info1 > p{
+    font-size: 10px;
+    text-align: center;
+    margin: 7px ;
+   padding: 8px;
+      color: #0a0a0a;
+}
+.parent1 > .info1 > button > a{
+    background: rgba(88,118,187);
+    padding: 11px 25px;
+ 
+ 
+    border: 2px solid  ;
+    border-color: rgba(88,118,187);
+    cursor: pointer;
+    transition: 0,6s;
+    top: 10px;
+    font-size: 15px  ;
+     color: #fff;
+  border-radius: 8px;
+    font-weight: bold;
+   
+}
+
+.parent1 > .info1 > button > a:hover{
+    background: #fff;
+    color:  rgba(88,118,187);
+    font-size: 15px;
+    padding: 11px 25px;
+    
+    
+}
+.parent1:hover .info1{
+    opacity: 0.6;
+} 
+.parent1 > .img1 > img{
+    top: 50px;
+    width: 180px;
+    height: 120px;
+   justify-content: center;
+   
+}
+    
+}
+@media screen and (max-width:940px){
+h3{
+    font-size: 15px;
+}
+    .menu{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+   
+}.menu a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 1px;
+    background-color:#f69721 
+;
+    margin: 10px;
+    text-align: center;
+
+    border-bottom:  5px solid #313486 ;
+ width: 90px;
+}
+.g{
+   font-size: 11px;
+}
+    .g:hover{
+font-size: 11px;
+    }
+    .parent{
+    max-width:200px;
+    height: 220px;
+    border: 2px solid #ccc;
+    padding: 0px;
+    margin:30px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent > .info{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:120px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+
+
+ 
+.parent > .info > h4{
+    font-size: 20px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent > .info > p{
+    font-size: 10px;
+    text-align: center;
+    margin: 7px ;
+   padding: 8px;
+      color: #0a0a0a;
+}
+
+.parent:hover .info{
+    opacity: 0.6;
+} 
+.parent > .img > img{
+    top: 50px;
+    width: 220px;
+    height: 120px;
+   justify-content: center;
+   
+}
+
+
+
+.parent1{
+    max-width:200px;
+    height: 220px;
+    border: 2px solid #ccc;
+    padding: 0px;
+margin: 30px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+     background-repeat: no-repeat;
+     float:left;
+    
+}
+.parent1 > .info1{
+    
+    flex-flow: column;
+  /* justify-content: center;*/
+    align-items: center;
+    position: absolute;
+    top:120px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(164,171,187,0.2);
+    color: darkgray;
+    opacity: 1;
+    transition:0.6s;
+    display:flex;
+}
+ 
+.parent1 > .info1 > h4{
+    font-size: 20px;
+    color: #0a0a0a;
+    padding: 5px;
+}
+.parent1 > .info1 > p{
+    font-size: 10px;
+    text-align: center;
+    margin: 7px ;
+   padding: 8px;
+      color: #0a0a0a;
+}
+.parent1 > .info1 > button > a{
+    background: rgba(88,118,187);
+    padding: 11px 25px;
+ 
+ 
+    border: 2px solid  ;
+    border-color: rgba(88,118,187);
+    cursor: pointer;
+    transition: 0,6s;
+    top: 10px;
+    font-size: 15px  ;
+     color: #fff;
+  border-radius: 8px;
+    font-weight: bold;
+   
+}
+
+.parent1 > .info1 > button > a:hover{
+    background: #fff;
+    color:  rgba(88,118,187);
+    font-size: 15px;
+    padding: 11px 25px;
+    
+    
+}
+.parent1:hover .info1{
+    opacity: 0.6;
+} 
+.parent1 > .img1 > img{
+    top: 50px;
+    width: 220px;
+    height: 120px;
+   justify-content: center;
+   
+}
+}

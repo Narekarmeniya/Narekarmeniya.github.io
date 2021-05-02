@@ -1,0 +1,33 @@
+
+/*[class*=col] {
+    line-height: 100px;
+    color: #fff;
+}
+
+.sidebar {
+    background: #333;
+}
+
+.content {
+    background: #555;
+}
+
+/*button {
+    outline: 0 !important;
+    color: #fff;
+}
+
+.container {
+    margin-bottom: 15px;
+}
+
+.card img {
+    max-width: 100%;
+}*/
+.container {
+    margin-bottom: 15px;
+}
+.card img{
+max-width:100%;
+	
+}
